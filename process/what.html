@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/styles.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Economica|Fascinate+Inline" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Tweetenomics</title>
+  </head>
+  <body>
+    <div>
+      <a href="../index.html">
+        <h1 class="hi">Tweetenomics</h1>
+      </a>
+    </div>
+
+    <div class="content-div mt-0 mb-0">
+      <p>Enter what you want and how much it costs.</p>
+    </div>
+
+    <!-- <div class="content-div">
+      <h3>The Want:</h3><input type="text" id="thingDesired">
+      <h3>The Cost: $</h3><input type="number">
+    </div> -->
+
+
+    <div class="input-group mt-0 mb-0 w-75 center">
+
+      <h3 class="w-100 content-div">The Want:</h3>
+      <div class="input-group-prepend">
+        <select class="custom-select" for="thingDesired"  id="inputGroupSelect01">
+          <option selected value="a">a</option>
+          <option value="an">an</option>
+          <option value="the">the</option>
+          <option value="his">his</option>
+          <option value="her">her</option>
+          <option value="its">its</option>
+          <option value="their">their</option>
+        </select>
+      </div>
+      <input type="text" id="thingDesired" class="form-control" aria-label="The Want">
+    </div>
+
+    <div class="input-group mt-0 mb-0 w-50 center" >
+      <h3 class="w-100 content-div">The Cost:</h3>
+      <div class="input-group-prepend">
+        <span class="input-group-text">$</span>
+      </div>
+    <input type="number"  step="10" value="10" maxlength="10" id="thingCost" class="form-control" aria-label="The Cost">
+    </div>
+
+
+
+    <div class="button-div">
+      <a href="how.html">
+        <button class="button" id="thingSpecified">Continue</button>
+      </a>
+    </div>
+
+    <div class="btm-btn">
+        <button class="button" onclick="back()" type="button" name="back">Go Back</button>
+    </div>
+
+    <script src="../javascript/actions.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

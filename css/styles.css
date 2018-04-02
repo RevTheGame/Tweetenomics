@@ -1,0 +1,99 @@
+.grd
+{
+  width: 80px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+body
+{
+  background: url(https://thumbs.gfycat.com/FlawedConcernedArmedcrab-size_restricted.gif) no-repeat center center fixed;
+/* background: url() no-repeat center center fixed; */
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+input[type="radio"]
+{
+  display: none;
+}
+
+
+p
+{
+  font-family: 'Economica', sans-serif;
+  font-size: 20px;
+  color: white;
+  padding: 5px;
+  align-self: center;
+}
+
+.hi
+{
+  color: white;
+  font-family: 'Fascinate Inline', cursive;
+}
+
+h1
+{
+  /* background-color: darkred; */
+  text-align: center;
+  padding: 15px 0px;
+}
+
+
+.button-div
+{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.content-div
+{
+  /* background: rgba(138, 125, 135, 0.75); */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  display:block;
+  font-family: 'Economica', sans-serif;
+  color: white;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.button
+{
+  background-color: darkred; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btm-btn
+{
+  font-family: 'Economica', sans-serif;
+  bottom: 5%;
+  left: 5%;
+  position: fixed;
+}
+
+.btm-btnr
+{
+    font-family: 'Economica', sans-serif;
+    bottom: 5%;
+    right: 5%;
+    position: fixed;
+}
